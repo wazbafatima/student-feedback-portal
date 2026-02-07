@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import RatingStars from "./RatingStars";
+import RatingStars from "./Ratingstars";
 import { FaPaperPlane } from "react-icons/fa";
 
 const FeedbackForm = ({ addFeedback, updateFeedback, editData }) => {
