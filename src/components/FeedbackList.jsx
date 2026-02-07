@@ -1,4 +1,4 @@
-import FeedbackItem from "./FeedbackItem";
+import FeedbackItem from "./Feedbackitem";
 import { FaRegCommentDots } from "react-icons/fa";
 
 const FeedbackList = ({ feedbacks, deleteFeedback, setEditData }) => {

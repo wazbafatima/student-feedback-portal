@@ -47,16 +47,16 @@ function App() {
         />
 
         {/* All Feedbacks Section */}
-        <div className="w-full max-w-xl relative flex flex-col items-center">
+        <div className="w-full max-w-xl flex flex-col items-center relative">
 
-          {/* Heading Centered */}
-          <h2 className="text-2xl font-extrabold text-indigo-600 drop-shadow-lg flex items-center gap-2 mb-2">
+          {/* Heading */}
+          <h2 className="text-2xl font-extrabold text-indigo-600 drop-shadow-lg flex items-center gap-2 mb-1 justify-center w-full">
             <FaComments className="text-blue-500" />
             All Feedbacks Here
           </h2>
 
-          {/* Total Count Top Right */}
-          <span className="absolute top-0 right-0 text-gray-700 font-semibold mt-2">
+          {/* Total Count */}
+          <span className="text-gray-700 font-semibold mb-2 sm:absolute sm:top-0 sm:right-0">
             Total: {feedbacks.length}
           </span>
 
